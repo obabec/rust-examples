@@ -3,6 +3,7 @@ name = "TickEx"
 version = "0.1.0"
 authors = ["Ondrej Babec <ond.babec@gmail.com>"]
 edition = "2018"
+resolver = "2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -14,4 +15,4 @@ log = "0.4.14"
 
 [patch.crates-io]
 embassy = { git = "https://github.com/embassy-rs/embassy.git", rev = "d76cd5ceaf5140c48ef97180beae156c0c0e07c8" }
-drogue-device = { git = "https://github.com/drogue-iot/drogue-device.git", rev = "c53431c07aaa351f9d37a387af2df0aec52b6b82" }
+drogue-device = { git = "https://github.com/drogue-iot/drogue-device.git", rev = "ce915ad027880992789a73bfc53094e8b155c66b" }
