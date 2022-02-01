@@ -1,0 +1,13 @@
+[package]
+name = "TickEx"
+version = "0.1.0"
+authors = ["Ondrej Babec <ond.babec@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embassy = { git = "https://github.com/embassy-rs/embassy.git", rev = "d76cd5ceaf5140c48ef97180beae156c0c0e07c8", features = ["log", "std", "time"]}
+
+env_logger = "0.9.0"
+log = "0.4.14"
